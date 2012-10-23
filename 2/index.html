@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Warsztaty Responsive Web Design</title>
+		<link rel="stylesheet" href="../_assets/global.css">
+		<link rel="stylesheet" href="main.css">
+	</head>
+    <body>
+		<form action="#">
+			<ul>
+				<li>
+					<label class="desc" id="title1" for="Field1">Imię</label>
+					<div>
+						<input id="Field1" type="text" class="field text fn" value="">
+					</div>
+				</li>
+				<li>
+					<label class="desc" id="title4" for="Field4">Wiadomość</label>
+					<div>
+						<input type="text" id="Field4"></input>
+					</div>
+				</li>
+				<li class="radio">
+					<fieldset>
+						<legend id="title5" class="desc">Notyfikacje</legend>
+						<div>
+							<div>
+								<input id="Field5_0" type="radio" value="First Choice" checked="checked"> <label class="choice" for="Field5_0">Wysyłaj wiadomości mail</label>
+							</div>
+							<div>
+								<input id="Field5_1" type="radio" value="Second Choice"> <label class="choice" for="Field5_1">Nie wysyłaj wiadomości mail</label>
+							</div>
+						</div>
+					</fieldset>
+				</li>
+				<li>
+					<label class="desc" id="title106" for="Field106">Lista wyboru</label>
+					<div>
+						<select id="Field106" class="field select medium">
+							<option>
+								Pierwszy wybór
+							</option>
+							<option>
+								Drugi wybór
+							</option>
+							<option>
+								Trzeci wybór
+							</option>
+						</select>
+					</div>
+				</li>
+				<li>
+					<div>
+						<button type="submit">Submit</button>
+					</div>
+				</li>
+			</ul>
+		</form>
+	</body>
+</html>
