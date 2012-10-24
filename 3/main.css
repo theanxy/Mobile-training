@@ -1,0 +1,45 @@
+footer {
+	background: #283333;
+	color: #c6d5d5;
+	clear: both;
+	margin: 20px;
+	padding: 20px;
+	font-size: 14px;
+	border-top: 1px solid #ddd;
+	overflow: hidden;
+}
+ul {
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+footer a {
+	color: #fff;
+}
+nav {
+	margin: 1em 0;
+}
+li {
+	display: inline-block;
+	margin-right: 1em;
+	padding: 0 1em 0 0;
+	font-weight: bold;
+	border-right: 1px solid #ccc;
+}
+li:last-child {
+	margin-right: 0;
+	padding: 0;
+	border: none;
+}
+img {
+	float: right;
+}
+p {
+	margin: 10px 0;
+}
+
+@media screen and (max-width: 800px) {
+
+}

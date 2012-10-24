@@ -1,0 +1,11 @@
+li {
+	display: inline-block;
+	margin-right: .5em;
+}
+a {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+
+}
